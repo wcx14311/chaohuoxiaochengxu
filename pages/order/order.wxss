@@ -1,0 +1,20 @@
+.order-tabs{
+	z-index: 100;
+	position: fixed;
+	top:0;
+	width: 100%;
+	display: flex;
+	background: #fff;
+}
+.order-tabs .tab-item{
+	flex: 1;
+	line-height: 50px;
+	text-align: center;
+}
+.order-tabs .tab-item.on{
+	border-bottom: 2px solid #f33333;
+}
+.pt20{
+	margin-top: 50px;
+	border-bottom: 10px solid #ededed;
+}

@@ -1,0 +1,62 @@
+<!--pages/order/orderDetail/index.wxml-->
+<view class="order-detial">
+  <view class="top-msg">超时说明：超时说明超时说明超时说明超时说明超时说...</view>
+  <view class="sanfen-block">
+    <view class="csx b">
+      <view class="tx"><text class="sct">配送倒计时</text></view>
+      <view class="vcs honzi">01:12:59</view>
+    </view>
+    <view class="csx b">
+      <view class="tx"><text class="scb">未准时赔付</text></view>
+      <view class="vcs heixi">0元</view>
+    </view>
+    <view class="csx">
+      <view class="tx"><text class="scs">状态</text></view>
+      <view class="vcs"><button class="border-btn">配送中</button></view>
+    </view>
+  </view>
+  <view class="order-info">
+    <view class="order-user-info">
+      <view class="scx">湖北省 武汉市 江汉区 南京路 华苑小区A2-1911</view>
+      <view class="scv">陈涵  15922478864</view>
+    </view>
+    <view class="order-money"><text>订单总额</text>：¥6000.00</view>
+  </view>
+  <view class="phone-order-block">
+    <view class="phone-order-no">订单编号：2017060710572400010000080131670080133167008013167</view>
+    <view class="phone-order-time">下单时间：2017-06-02 11:01</view>
+    <view class="phone-list">
+      <view class="phone-item">
+        <view class="item-image"><image src="../../../image/asdasd.png"></image></view>
+        <view class="item-text">
+          <view class="classname">HUAWEI nova 青春版</view>
+          <view class="phong-xihao">128G 宝蓝色 128G 宝蓝色</view>
+        </view>
+        <text class="num">11</text>
+      </view>
+      <view class="phone-item">
+        <view class="item-image"><image src="../../../image/asdasd.png"></image></view>
+        <view class="item-text">
+          <view class="classname">HUAWEI nova 青春版</view>
+          <view class="phong-xihao">128G 宝蓝色 128G 宝蓝色</view>
+        </view>
+        <text class="num">11</text>
+      </view>
+      <view class="phone-item">
+        <view class="item-image"><image src="../../../image/asdasd.png"></image></view>
+        <view class="item-text">
+          <view class="classname">HUAWEI nova 青春版</view>
+          <view class="phong-xihao">128G 宝蓝色 128G 宝蓝色</view>
+        </view>
+        <text class="num">11</text>
+      </view>
+    </view>
+  </view>
+  <view class="phone-orader-btn">
+    <view class="btnf"><button class="border-btn" bindtap="fadan">返单</button></view>
+    <view class="btnf"><button class="fill-btn">确认送达</button></view>
+  </view>
+  <view class="phone-orader-btn">
+    <view class="one"><button class="fill-btn" bindtap="toOrderBackAddress">寄送商品回公司</button></view>
+  </view>
+</view>

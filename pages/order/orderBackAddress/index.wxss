@@ -1,0 +1,22 @@
+/* pages/order/orderBackAddress/index.wxss */
+.line-sction .line-block .rt{
+	text-align: left;
+	margin-left: 30px;
+}
+.line-sction .line-block .rt input{
+	padding-top:18px;
+}
+.text-block{
+    padding: 10rpx 22rpx;
+    min-height:250rpx;
+    word-break: break-all;
+    border-top: 1px solid #efefef;
+}
+.text-block .ht{
+	padding:0 8rpx;
+}
+.text-block textarea{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}

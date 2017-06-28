@@ -1,0 +1,21 @@
+<view class="container">
+	<view class="bzj-colorBG">
+		<view class="l-image">
+			<image src="../../../image/baz-icon.png"></image>
+		</view>
+		<view class="r-text">
+			<text class="lt">存入保证金</text>
+      		<view class="rt"><text>10000</text>元</view>
+		</view>
+  	</view>
+	<view class="sc-warpe">
+		<view class="h-bg">
+			<view class="img-box" catchtap="chooseImageTap">
+				<image src="{{bzjtu}}" mode="aspectFit"></image>
+			</view>
+		</view>
+	</view>  
+  	<view class="button-section">
+    	<button class="btn red-fill" bindtap="sss">确认提交</button>
+  	</view>
+</view>

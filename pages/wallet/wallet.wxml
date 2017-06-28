@@ -1,0 +1,24 @@
+<view class="container">
+  <view class="topboolsuserinfo">
+    <view class="cenmane">
+      <view class="namumber">
+        <text class="text-label">保证金（元）</text>
+         <text class="big-text">10000.00</text>
+      </view>
+    </view>
+    <button bindtap="toDeposit" class="checkAgentButton">存入保证金</button>
+  </view>
+  <view class="page-bd">
+    <view class="box-title">
+      <view class="bl"></view>
+      <view class="bc">保证金明细</view>
+      <view class="br"></view>
+    </view>
+    <view class="payment-list">
+      <view class="list-item" wx:for="{{transactionFlow}}">
+        <view class="pay-type">{{item.type=='add'?'存入':'冻结'}}<text class="{{item.type=='add'?'h':'l'}}">{{item.type=='add'?'+':'-'}}{{item.money}}</text></view>
+        <view class="item-data">{{item.date}}</view>
+      </view>
+    </view>
+  </view>
+</view>

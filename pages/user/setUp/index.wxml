@@ -1,0 +1,20 @@
+<!--pages/user/setUp/index.wxml-->
+<view>
+    <view class="line-sction">
+        <view class="line-block">
+            <view class="lt s1">原密码</view>
+            <view class="rt"><input type="password" placeholder="请输入"/></view>
+        </view>
+        <view class="line-block">
+            <view class="lt s2">新密码</view>
+            <view class="rt"><input type="password" placeholder="请输入密码"/></view>
+        </view>
+        <view class="line-block">
+            <view class="lt s3">确认密码</view>
+            <view class="rt"><input type="password" placeholder="请再次输入密码"/></view>
+        </view>
+    </view>
+    <view class="button-section">
+        <button class="btn red-fill">确认修改</button>
+    </view>
+</view>

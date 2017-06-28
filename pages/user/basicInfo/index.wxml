@@ -1,0 +1,54 @@
+<!--pages/user/basicInfo/index.wxml-->
+<view class="">
+  <view class="line-sction-title">基本信息</view>
+  <view class="line-sction">
+    <view class="line-block">
+      <view class="lt s1">登录账号</view>
+      <view class="rt">金怡华</view>
+    </view>
+    <view class="line-block">
+      <view class="lt s2">邮箱</view>
+      <view class="rt">jinyihua@126.com</view>
+    </view>
+    <view class="line-block">
+      <view class="lt s3">密保手机</view>
+      <view class="rt">18971336954</view>
+    </view>
+  </view>
+  <view class="line-sction-title">更多资料</view>
+  <view class="line-sction">
+    <view class="line-block">
+      <view class="lt s1">营业执照照片</view>
+      <view class="rt right-arror">查看</view>
+    </view>
+    <view class="line-block">
+      <view class="lt s2">法人/老板身份证照片</view>
+      <view class="rt right-arror"> 查看</view>
+    </view>
+    <view class="line-block">
+      <view class="lt s3">店铺门店照</view>
+      <view class="rt right-arror">查看</view>
+    </view>
+    <view class="line-block">
+      <view class="lt s3">姓名</view>
+      <view class="rt">金怡华</view>
+    </view>
+    <view class="line-block">
+      <view class="lt s3">身份证号</view>
+      <view class="rt">420102197812143654</view>
+    </view>
+    <view class="line-block">
+      <view class="lt s3">负责区域</view>
+      <view class="rt">湖北 武汉</view>
+    </view>
+    <view class="line-block">
+      <view class="lt s3">是否有自营产品</view>
+      <view class="rt">地包</view>
+    </view>
+    <view class="line-block">
+      <view class="lt s3">收货地址</view>
+      <view class="rt right-arror">修改</view>
+    </view>
+  </view>
+  <view class="line-sction-bottom"></view>
+</view>

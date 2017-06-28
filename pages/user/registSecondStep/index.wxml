@@ -1,0 +1,81 @@
+<!--用户注册第二步-->
+<view class="zhuce">
+	<view class="line-sction">
+		<view class="line-auto">
+			<view class="tt">营业执照照片</view>
+            <view class="bb">
+                <view class="img-cube" bindtap="chooseImageTap">
+					<image class="xd-img-user1" id="yyzzphoto" catchtap="chooseImageTap" src="{{yyzzphoto}}" mode="aspectFit"></image>
+				</view>
+            </view>
+		</view>
+		<view class="line-auto">
+			<view class="tt">法人/老板身份证照片</view>
+            <view class="bb">
+                <view class="img-cube" bindtap="chooseImageTap">
+					<image class="xd-img-user1" id="sfzzmphoto" catchtap="chooseImageTap" src="{{sfzzmphoto}}" mode="aspectFit"></image>
+				</view>
+                <view class="img-cube" bindtap="chooseImageTap">
+					<image class="xd-img-user1" id="sfzfmphoto" catchtap="chooseImageTap" src="{{sfzfmphoto}}" mode="aspectFit"></image>
+				</view>
+            </view>
+		</view>
+		<view class="line-auto">
+			<view class="tt">店铺门店照</view>
+            <view class="bb">
+                <view class="img-cube" bindtap="chooseImageTap">
+					<image class="xd-img-user1" id="dpmdphoto" catchtap="chooseImageTap" src="{{dpmdphoto}}" mode="aspectFit"></image>
+				</view>
+            </view>
+		</view>
+    	<view class="line-block">
+      		<view class="lt">姓名</view>
+      		<view class="rt"><input type="text" placeholder="请输入"/></view>
+    	</view>
+    	<view class="line-block">
+      		<view class="lt">身份证号</view>
+      		<view class="rt"><input type="text" placeholder="请输入"/></view>
+    	</view>
+		<view class="line-block">
+      		<view class="lt">是否有自营产品</view>
+			<view class="rt">
+				<picker bindchange="hasSelfGoodPickerChange" value="{{hasSelfGoodIndex}}" range="{{hasSelfGood}}" range-key="text">
+					<view class="weui-input">{{hasSelfGood[hasSelfGoodIndex].text}}</view>
+				</picker>
+			</view>
+		</view>
+		<view class="line-block">
+			<view class="lt">负责区域</view>
+			<view class="rt">
+				<picker bindchange="privincePickerChange" value="{{privinceIndex}}" range="{{privince}}" range-key="text">
+					<view class="weui-input">{{privince[privinceIndex].text}}</view>
+				</picker>
+			</view>
+		</view>
+		<view class="line-block">
+			<view class="lt"></view>
+			<view class="rt">
+				<picker bindchange="cityPickerChange" value="{{cityIndex}}" range="{{city}}" range-key="text">
+					<view class="weui-input">{{city[cityIndex].text}}</view>
+				</picker>
+			</view>
+		</view>
+		<view class="line-block">
+			<view class="lt"></view>
+			<view class="rt">
+				<picker bindchange="areaPickerChange" value="{{areaIndex}}" range="{{area}}" range-key="text">
+					<view class="weui-input">{{area[areaIndex].text}}</view>
+				</picker>
+			</view>
+		</view>
+		<view class="line-block">
+			<view class="lt">怡乐购推荐人</view>
+			<view class="rt"><input type="text" placeholder="运营商业务员工号（指定业务员）"/></view>
+		</view>
+	</view>
+	<view class="button-section">
+		<button bindtap="submintData">确认提交</button>
+	</view>
+</view>
+
+

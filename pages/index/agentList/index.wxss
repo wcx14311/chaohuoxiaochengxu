@@ -1,0 +1,25 @@
+/* pages/index/agentList/index.wxss */
+.agent-list .list-item{
+  padding: 10px 0;
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+.agent-list .list-item .l-images{
+  padding:0 20px;
+}
+.agent-list .list-item .l-images image{
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.agent-list .list-item .r-text{
+  flex: 1;
+}
+.agent-list .list-item .r-text .h1{
+  padding-bottom:2px;
+}
+.agent-list .list-item .r-text .t2{
+  font-size:12px;
+  color: #898989;
+}

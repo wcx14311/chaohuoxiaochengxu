@@ -1,0 +1,9 @@
+/* pages/user/setUp/index.wxss */
+.line-block .lt{
+	min-width:120px;
+}
+.line-block .rt input{
+	padding-top:18px;
+	padding-bottom: 20px;
+	text-align: left;
+}

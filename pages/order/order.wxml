@@ -1,0 +1,25 @@
+<view class="container">
+	<view class="order-container">
+		<view class="order-tabs">
+			<view bindtap="selectOrderTapy" id="all" class="tab-item {{orderType=='all'?'on':''}}">全部</view>
+			<view bindtap="selectOrderTapy" id="send" class="tab-item {{orderType=='send'?'on':''}}">配送中</view>
+			<view bindtap="selectOrderTapy" id="sending" class="tab-item {{orderType=='sending'?'on':''}}">待配送</view>
+			<view bindtap="selectOrderTapy" id="canselSend" class="tab-item {{orderType=='canselSend'?'on':''}}">取消配送</view>
+			<view bindtap="selectOrderTapy" id="compalte" class="tab-item {{orderType=='compalte'?'on':''}}">已完成</view>
+		</view>
+		<view class="order-list pt20">
+			<view class="order-item" wx:for="{{orderLstData}}" bindtap="toDetail">
+				<view class="ht">订单编号：{{item.orderNo}}</view>
+				<view class="item-flex">
+					<view class="classname"><image src="../../image/asdasd.png"></image></view>
+					<view class="text">
+						<view class="h1">下单时间：{{item.data}}</view>
+						<view class="t2">配送时间：<text class="date">{{item.sendData}}</text></view>
+						<view class="t2">订单总额：¥{{item.monery}}</view>
+					</view>
+					<button class="btn {{item.status=='配送中'?'h-btn':''}} {{item.status=='待配送'?'l-btn':''}}">{{item.status}}</button>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

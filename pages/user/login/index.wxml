@@ -1,0 +1,29 @@
+<!--pages/user/login/index.wxml-->
+<view class="login-page">
+  <view class="touxiang">
+    <image class="" src="{{userInfo.avatarUrl}}"></image>
+  </view>
+  <view class="line-sction">
+    <view class="line-block">
+      <view class="lt user">账号</view>
+      <view class="rt">
+        <input type="text" placeholder="请输入账号" placeholder-class="scddf"/>
+      </view>
+    </view>
+    <view class="line-block">
+      <view class="lt lock">密码</view>
+      <view class="rt">
+        <input type="password" placeholder="请输入密码" placeholder-class="scddf"/>      
+      </view>
+    </view>
+  </view>
+  <view class="l-forget-text">
+    <text>忘记密码？</text>
+  </view>
+  <view class="button-section">
+    <button bindtap="dologin">登录</button>
+  </view>
+  <view class="button-zhuce">
+    <text bindtap="qozhuce">注册</text>
+  </view>
+</view>

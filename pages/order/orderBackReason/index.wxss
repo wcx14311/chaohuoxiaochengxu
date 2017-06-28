@@ -1,0 +1,12 @@
+/* pages/order/orderBackReason/index.wxss */
+.text-block{
+    padding: 10rpx 25rpx;
+    min-height: 300rpx;
+    word-break: break-all;
+    border-bottom: 1px solid #efefef;
+}
+.text-block textarea{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}

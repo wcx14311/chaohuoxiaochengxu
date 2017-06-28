@@ -1,0 +1,60 @@
+/**wallet.wxss**/
+.cenmane{
+  height:210rpx;
+  width: 100%;
+  padding:10rpx;
+}
+.namumber{
+  padding-top:10px;
+  text-align: center;
+  border-radius: 50%;
+}
+.namumber text{
+  display: block;
+  text-align: center;
+}
+.big-text{
+  padding-top:30rpx;
+  font-size:100rpx;
+  line-height:100rpx;
+}
+.text-label{
+  font-size:30rpx;
+}
+.checkAgentButton{
+  height:40px;
+  line-height:35px;
+  padding-bottom:0;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  width: 100%;
+  display: block;
+  margin-top:30rpx;
+}
+.list-item{
+  padding: 10px;
+  border-bottom: 1px solid #ededed;
+}
+.list-item .pay-type text{
+  float: right;
+}
+.list-item .item-data{
+  margin-top: 5px;
+  color:#898989;
+}
+.h{
+  color: #f33333;
+}
+.l{
+  color: #1a880f;
+}
+.box-title{
+  padding:20px 0;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+}
+.box-title .bl,.box-title .br{flex:1}
+.box-title .bc{padding:0 10px;}
+.box-title .bl{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFsAAAAKCAYAAADb5CLLAAAAmklEQVRIie3VMQ6CQBSE4Q9D6W3QA9ArngVrS2n1LmItB+A4xFoLtiYUS0xk/+QVm5liMnl5mw1FIRGNI2rsw7vHDU/Y/CjUP3LFAyW2YUq0QZOlzY7CwVjqFFXa7DicZ3jqVHYcdnM8OT5LJ1kBwwxPliNbOskKeBk/wyn6dEbicJ/jSWXHoUUzoTdoU9nxuOCEDu8wHaqg+QIpQBexVUD0HQAAAABJRU5ErkJggg==") no-repeat right center}
+.box-title .br{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFsAAAAKCAYAAADb5CLLAAAAn0lEQVRIie3WPQ6CMBiA4YfG0dugB2D35yy64qir3kXdOQDexjjrQF2xCTDZJ/lCSN+haTq0eJalaI0dlvG/xRl32ShC/B5xRYV5nAq3uJaNIGCFuqepdbc+Gyhgn9Dtpt7IPwhYJHQpTfbDLLEr8J5yI/8g4JHQtboDzzNgAi4Jh53SZD8E3fPu1NOcYpMN9H1nH7BFg1ecBpu4lo3gA129FcMSOmNjAAAAAElFTkSuQmCC") no-repeat left center}

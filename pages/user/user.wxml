@@ -1,0 +1,36 @@
+
+<view class="container">
+    <view class="topboolsuserinfo">
+        <view class="cenmane">
+            <view class="user-photo"><image src="{{userInfo.avatarUrl}}"></image></view>
+            <view class="namumber">山东金怡华有限公司</view>
+        </view>
+    </view>
+    <view class="u-toji">
+        <view class="u-double u-border-r">
+            <view class="c1">20</view>
+            <view class="c2">完成单量</view>
+        </view>
+        <view class="u-double">
+            <view class="c1">100%</view>
+            <view class="c2">准时送达率</view>
+        </view>
+    </view>
+    <view class="line-sction">
+        <view class="line-block" id="./basicInfo/index" bindtap="goPage">
+            <view class="lt s1">我的资料</view>
+            <view class="rt right-arror"></view>
+        </view>
+        <view class="line-block" id="./ruleDescription/index" bindtap="goPage">
+            <view class="lt s2">规则说明</view>
+            <view class="rt right-arror"></view>
+        </view>
+        <view class="line-block" id="./setUp/index" bindtap="goPage">
+            <view class="lt s3">设置</view>
+            <view class="rt right-arror"></view>
+        </view>
+    </view>
+    <view class="button-section">
+        <button class="btn red-fill">退出登录</button>
+    </view>
+</view>

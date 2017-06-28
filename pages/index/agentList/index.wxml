@@ -1,0 +1,10 @@
+<view class="list-block agent-list">
+  <view class="list-item" wx:for="{{agentData}}">
+    <view class="l-images"><image src="../../../image/asdasd2.png"></image></view>
+    <view class="r-text">
+      <view class="h1">{{item.name}}</view>
+      <view class="t2">完成单{{item.count}}笔</view>
+      <view class="t2">{{item.agentAre}}</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<!--返单原因-->
+<view>
+    <view class="text-block">
+        <textarea bindblur="bindTextAreaBlur" auto-height placeholder="请填写返单原因，如客户拒收等"/>
+    </view>
+    <view class="button-section">
+        <button class="btn red-fill">确认提交</button>
+    </view>
+</view>

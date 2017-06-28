@@ -1,0 +1,16 @@
+<!--返单地址-->
+<view>
+    <view class="text-block">
+        <view class="ht">公司地址</view>
+        <textarea bindblur="bindTextAreaBlur" auto-height placeholder="请输入公司地址"/>
+    </view>
+	<view class="line-sction">
+		<view class="line-block">
+			<view class="lt">物流单号</view>
+			<view class="rt"><input type="text" placeholder="请输入物流单号"/></view>
+		</view>
+	</view>
+    <view class="button-section">      
+        <button class="btn red-fill">确认提交</button>
+    </view>
+</view>

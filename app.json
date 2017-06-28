@@ -1,0 +1,62 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index/agentList/index",
+    "pages/order/order",
+    "pages/order/orderDetail/index",
+    "pages/order/orderBackReason/index",
+    "pages/order/orderBackAddress/index",
+    "pages/wallet/wallet",
+    "pages/wallet/walletDetail/index",
+    "pages/user/user",
+    "pages/user/userDetail/index",
+    "pages/user/basicInfo/index",
+    "pages/user/ruleDescription/index",
+    "pages/user/setUp/index",
+    "pages/user/login/index",
+    "pages/user/registFirstStep/index",
+    "pages/user/registSecondStep/index"
+  ],
+  "window": {
+      "navigationBarTextStyle": "#ffffff",
+      "navigationBarTitleText": "超伙",
+      "navigationBarBackgroundColor": "#f33233",
+      "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#444444",
+    "selectedColor": "#f43334",
+    "borderStyle": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/1a.png",
+        "selectedIconPath": "image/1w.png",
+        "text": "首页"
+      },{
+        "pagePath": "pages/order/order",
+        "iconPath": "image/2a.png",
+        "selectedIconPath": "image/2w.png",
+        "text": "订单"
+      },{
+        "pagePath": "pages/wallet/wallet",
+        "iconPath": "image/3a.png",
+        "selectedIconPath": "image/3w.png",
+        "text": "钱包"
+      },{
+        "pagePath": "pages/user/user",
+        "iconPath": "image/4a.png",
+        "selectedIconPath": "image/4w.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="topboolsuserinfo">
+    <view class="cenmane">
+      <view class="namumber">
+         <text class="big-text">16</text>
+         <text class="text-label">配送订单</text>
+      </view>
+    </view>
+    <button bindtap="bindViewTap" class="checkAgentButton">区域商户查询</button>
+  </view>
+  <view class="order-list">
+       <view class="order-item" bindtap="toDetail">
+          <view class="ht">订单编号：201706071057240001000008013167</view>
+          <view class="item-flex">
+              <view class="classname"><image src="../../image/asdasd.png"></image></view>
+              <view class="text">
+                  <view class="h1">下单时间：2017-06-02 11:01</view>
+                  <view class="t2">配送时间：<text class="date">5月24日12:00前送达</text></view>
+                  <view class="t2">订单总额：¥6000.00</view>
+              </view>
+              <button class="btn h-btn">配送中</button>
+          </view>
+       </view>
+  </view>
+  <view class="dialog dialog-bzj {{showDialog ? '':'hide'}}">
+      <view class="bzj-info">
+          <view class="t1">完成任务</view>
+          <view class="t2">请完成下述相关流程，即可开启接单功能</view>
+          <view class="t3">请缴纳保证金</view>
+          <view class="t4">50000元</view>
+          <view class="t5">
+              <view class="a">
+                <view><text class="y">1</text></view>
+                <view class="s">存入保证金</view>
+              </view>
+              <view class="c">
+                <view class="line"></view>
+              </view>
+              <view class="a">
+                <view><text class="y">2</text></view>
+                <view class="s">开始接单</view>
+              </view>
+          </view>
+          <button class="tc" bindtap="handleBZJBtn">存入保证金</button>
+      </view>
+  </view>
+</view>
